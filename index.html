@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>index Bootstrap</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/MrXBootStrap/">MrX</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/MrXBootStrap/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/MrXBootStrap/about.html">About</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Topics</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.coursera.org/learn/machine-learning">Machine Learning</a>
+              <a class="dropdown-item" href="https://www.coursera.org/learn/ai-for-everyone">Artificial Intelligence</a>
+              <a class="dropdown-item" href="https://www.coursera.org/specializations/python">Python</a>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/MrXBootStrap/support.html">Support Us!</a>
+              <a class="dropdown-item" href="/MrXBootStrap/motivate.html">Motivate Us!</a>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/MrXBootStrap/contact.html">Contact us!</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="mx-2">
+        <button class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop">Sign up</button>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop2">Login</button>
+      </div>
+    </nav>
+
+    <!--Sign Up Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Create an account!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="phone number">
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phno." value="**********">
+                <p></p>
+              </div>
+              <button type="submit" class="btn btn-primary">Create Account</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Login Modal -->
+    <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Get Into your account!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/MrXBootStrap/1.jpg" class="img-fluid d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Best coding Website</h5>
+            <a href="https://www.coursera.org/learn/machine-learning" class="btn btn-primary" role="button" data-toggle="button" aria-pressed="false">Machine learning</a>
+            <a href="https://www.coursera.org/learn/ai-for-everyone" class="btn btn-danger" role="button" data-toggle="button" aria-pressed="false">Artificial Intelligence</a>
+            <a href="https://www.coursera.org/specializations/python" class="btn btn-success" role="button" data-toggle="button" aria-pressed="false">Python</a>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/MrXBootStrap/2.jpg" class="img-fluid d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Award for the most versatile website</h5>
+            <a href="https://www.coursera.org/learn/machine-learning" class="btn btn-primary" role="button" data-toggle="button" aria-pressed="false">Machine learning</a>
+            <a href="https://www.coursera.org/learn/ai-for-everyone" class="btn btn-danger" role="button" data-toggle="button" aria-pressed="false">Artificial Intelligence</a>
+            <a href="https://www.coursera.org/specializations/python" class="btn btn-success" role="button" data-toggle="button" aria-pressed="false">Python</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/MrXBootStrap/3.jpg" class="img-fluid d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>People chooses the Best</h5>
+            <a href="https://www.coursera.org/learn/machine-learning" class="btn btn-primary" role="button" data-toggle="button" aria-pressed="false">Machine learning</a>
+            <a href="https://www.coursera.org/learn/ai-for-everyone" class="btn btn-danger" role="button" data-toggle="button" aria-pressed="false">Artificial Intelligence</a>
+            <a href="https://www.coursera.org/specializations/python" class="btn btn-success" role="button" data-toggle="button" aria-pressed="false">Python</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container my-4" >
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Featuring</strong>
+              <h3 class="mb-0">World conference</h3>
+              <p class="card-text mb-auto">This contains the list of all the upcoming conferences in the near future.</p>
+              <a href="http://www.allconferences.com/Science" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-fluid" src="data:image/jpeg;base64,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" alt="Not Found" width="200" height="200">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Web designing</h3>
+              <p class="mb-auto">Learn web designing with the easiest of tutorials.</p>
+              <a href="https://www.javatpoint.com/html-tutorial" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-fluid" src="data:image/jpeg;base64,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" alt="Not Found" width="200" height="200">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-warning">Machine Learning</strong>
+              <h3 class="mb-0">Basics of machine learning</h3>
+              <p class="card-text mb-auto">Learn the basics of machine learning from scratch.</p>
+              <a href="https://www.coursera.org/learn/machine-learning" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-fluid" src="data:image/jpeg;base64,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" alt="Not Found" width="200" height="200">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-danger">Artificial Intelligence</strong>
+              <h3 class="mb-0">Basics of AI</h3>
+              <p class="mb-auto">Learn the basics from scratch.</p>
+              <a href="https://www.coursera.org/learn/ai-for-everyone" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-fluid" src="data:image/jpeg;base64,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" alt="Not Found" width="200" height="200">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>© 2019-2020 Company, Inc. <a href="/MrXBootStrap/contact.html">Contact Us </a> ·
+        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#privacy" >Privacy And Terms</button></p>
+      </footer>
+
+      <!--Terms and Conditions Modal -->
+      <div class="modal fade" id="privacy" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="privacy" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Privacy and Terms</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div>
+                <div class="row-panel ">
+                  <div class="row-inner ">
+
+                    <div>
+                      <ul class="aticle-txt "><li>
+
+
+                        <!--  		@page { margin: 0.79in }  		P { margin-bottom: 0.08in }  	-->
+
+                        <p>Please read the  following terms and conditions carefully as it sets out the terms of  a legally binding agreement between you (the reader) and Business  Standard Private Limited.</p>
+                        <!-- TXT ADV PANEL -->
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row-panel ">
+                <div class="row-inner ">
+                  <h2>1) Introduction</h2>
+                  <div>
+                    <ul class="aticle-txt ">
+                      <li><p class="mT15">This following sets out the terms and conditions on which you may use the content on <br>
+                        <a href="https://www.business-standard.com" target="_blank">business-standard.com</a> website, business-standard.com's mobile browser site, Business Standard instore Applications and other digital publishing services (<a href="https://www.smartinvestor.in" target="_blank">www.smartinvestor.in</a>, <a href="https://www.bshindi.com" target="_blank">www.bshindi.com</a> and <a href="https://www.bsmotoring.com" target="_blank">www.bsmotoring,com</a>) owned by Business Standard Private Limited, all the services herein will be referred to as Business Standard Content Services.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="row-panel ">
+                <div class="row-inner ">
+                  <h2>2) Registration Access and Use</h2>
+                  <div>
+                    <ul class="aticle-txt ">
+                      <li>
+                        <p class="mT15">We welcome users to register on our digital platforms. We offer the below mentioned registration services which may be subject to change in the future. All changes will be appended in the terms and conditions page and communicated to existing users by email.</p>
+                        <p class="mT15">Registration services are offered for individual subscribers only. If multiple individuals propose to access the same account or for corporate accounts kindly contact or write in to us. Subscription rates will vary for multiple same time access.</p>
+                        <p class="mT15">The nature and volume of Business Standard content services you consume on the digital platforms will vary according to the type of registration you choose, on the geography you reside or the offer you subscribe to. </p>
+                        <p class="mT15">a) Free Registration</p>
+                        <p class="mT15">b) Premium Registration</p>
+                        <p class="mT15">c) Special Offers</p>
+                        <p class="mT15">d) Combo registrations with partners </p>
+                        <p class="mT15">
+                          The details of the services and access offered for each account have been listed on <br>
+                          <a href="https://www.business-standard.com/subscription-cart/product" target="_blank">www.business-standard.com/subscription-cart/product</a></p>
+                          <p class="mT15">
+                            We may in exceptional circumstances cease to provide subscription services. We will give you at least 7 days notice of this, if possible. If we do so, then we will have no further obligation to you. </p>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="row-panel ">
+                    <div class="row-inner">
+                      <h2>3) Privacy Policy and Registration</h2>
+                      <div>
+                        <ul class="aticle-txt">
+                          <li><p class="mT15">All information received by us from your registration on business-standard.com or other digital products of Business Standard will be used by Business Standard in accordance with our Privacy Policy. Kindly read the below mentioned details.</p>
+                            <p class="mT15">On registration, we expect you to provide Business Standard with an accurate and complete information of the compulsory fields. We also expect you to keep the information secure, specifically access passwords and payment information. Kindly update the information periodically to keep your account relevant. Business Standard will rely on any information you provide to us. </p>
+                            <p class="mT15">Each registration is for a single user only. On registration, you will choose a user name and password ("ID"). You are not allowed to share your ID or give access to your account to anyone else. Business Standard Premium subscription does not allow multiple users on a network or within an organization to use the same ID.</p>
+                            <p class="mT15">On knowledge, Business Standard may cancel or suspend your access to Business Standard premium services if it comes across you sharing your personal access without further obligation to you. </p>
+                            <p class="mT15">You are responsible for all the use of business-standard.com premium service made by you or anyone else using your ID and for preventing unauthorised use of your ID. If you believe there has been any breach of security such as the disclosure, theft or unauthorised use of your ID or any payment information, you must notify Business Standard immediately by e-mailing us at <a href="https://www.business-standard.com/issue-report/report">assist@bsmail.in</a>. We recommend that you do not select an obvious user password (such as your name) and that you change it regularly.</p>
+                            <p class="mT15">If you provide Business Standard with an email address that will result in any messages Business Standard may send you being sent to you via a network or device operated or owned by a third party (e.g. your employer or college) then you promise that you are entitled to receive those messages. To ensure email's land in your inbox, you will add the bsmail receipt id to your safe list. You also agree that Business Standard may stop sending messages to you without notifying you.</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <ul class="aticle-txt">
+                          <li> <p class="mT15"><span style="font-weight:bold !important">Important</span> - Kindly note</p></li>
+                          <li><p>(A) When you participate and choose to subscribe to joint content subscription offers that Business Standard partners with; your email id, access password and entered personal information will be shared with the participating content partner brand via an encrypted server to server protocol. This sharing is to facilitate your seamless access across the partner brand's platform. Once you login to the partner brand's platform, specific terms and privacy policies of the partner brand (mentioned on its website) will apply. </p></li>
+                          <li><p class="mT15">(B) Joint offers including special price offers are generally limited to new users on the partner sites. Clubbed Offers on partner sites will not be available to you should your email id be registered with the partner website.<br><br>You are advised to study the offer before you subscribe.<br><br>Merely subscribing to such a joint offer does not make you eligible to gain access to the partner platform. Business Standard does not take responsibility of providing you with an access on the partner site for existing users/subscribers of these sites.
+
+                          </p></li>
+                          <li><p class="mT15">(C) When you subscribe to joint offers supported by (non-content) brands; specific brands would ask you to share personal or private information in lieu of a value that the brand extends. By participating in such offers you implicitly and by confirming the terms of the offer you agree to share your registration information and personal data with the concerned brand. The brand or its associates may use this personal information to contact you with their promotional offers. Further by participating to such offers your will be additionally governed by the privacy policy and terms and conditions of the concerned brand. You are advised to go through them carefully before you decide to opt in.</p></li>
+                          <li>
+                            <p>As a registered user of or subscriber to business-standard.com you may choose to use business-standard.com's "Remember me" log in feature that enables you to be logged in automatically to business-standard.com whenever you visit business-standard.com without having to manually log in each time. We recommend that you do not enable this feature on any computer that is or may be used by anyone other than you in order to prevent unauthorized access by third parties to both your subscription details and features of business-standard.com personal to you.</p>
+                          </li>
+                        </ul>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+
+                  <div class="row-panel ">
+                    <div class="row-inner ">
+                      <h2>4. Personal Subscription Services </h2>
+                      <div>
+                        <ul class="aticle-txt ">
+                          <li><p class="mT15">Personal subscription services include Business Standard premium access to behind the pay wall content. When you subscribe to Business Standard Premium access, you gain access to opinion pieces, comment and exclusive features specially chosen for you by the Business Standard editors.</p>
+                            <p>The nature of content behind the pay wall is subject to change; the final decision of which lies with the Editor. </p></li>
+                            <li>
+                              <strong><p class="bold">Types of subscription:</p> </strong>
+                              <p>Services may differ from country to country and the device from which you subscribe. Subscriptions packages and price may also vary in time. </p></li>
+                              <li>
+                                <strong><p class="bold">Contract formation: </p></strong><p><strong> </strong>
+                                </p><p>Business Standard will try to process your subscription promptly but does not guarantee that your subscription will be activated by any specified time. By submitting your payment and other subscription details, you are making an offer to us to buy a subscription. Your offer will only be accepted by us and a contract formed when we have successfully verified your payment details and email address, at which point we will provide you with access to your subscription. Business Standard reserves the right to reject any offer in its discretion, for any or no reason.  </p>
+                                <p class="mT15">Business Standard may partner with third party content providers to offer bundled services, under which the payment for both the services will be collected by Business Standard. Business Standard will endeavor to provide a seamless access to all such third parties with a single one point access. There could be a gap in this seamless access due to a technology breakdown, temporary disconnection of the internet connection or any factors beyond the reasonable control of Business Standard. In such cases the contract will be formed once the access to the partner services are restored.</p>
+                                <p class="mT15">You are requested to read through the terms and conditions offered by content partners to Business Standard. Most partners offer bundled services for new users. Existing subscribers of partners are not eligible for bundled subscription. Should you happen to be one please note that the partner will be liable to reject your offer to subscribe under the bundled subscription not leading to contract formation as a result.  </p>
+
+                              </li>
+
+                              <li>
+                                <strong><p class="bold">Payment details: </p> </strong>
+                                <p class="mT15">When you purchase a subscription, you must provide us with complete and accurate payment information. By submitting payment details you promise that you are entitled to purchase a subscription using those payment details. If we do not receive payment authorization or any authorization is subsequently cancelled, we may immediately terminate or suspend your access to your subscription. In suspicious circumstances we may contact the issuing bank/payment provider and/or law enforcement authorities or other appropriate third parties. If you are entitled to a refund under these terms and conditions we will credit that refund to the card or other payment method you used to submit payment, unless it has expired in which case we will contact you.</p>
+                                <p class="mT15">Business Standard will use the services of quality third party payment service providers to process your payment. Payment options are primarily through credit card. Business Standard may offer other payment mechanisms from time to time.</p></li>
+                                <li>
+                                  <strong><p class="bold">Pricing: </p> </strong>
+                                  <p class="mT15">The subscription price will be made clear to you on our sign-up pages or otherwise during the sign-up process and may vary from time to time, by region or by country. You agree to pay the fees at the rates notified to you at the time you purchase your subscription. Subscription to premium services on Business Standard are generally of monthly frequency. Business Standard however may choose to offer fixed term or fixed payment frequency offers from time to time. The currency in which your subscription is payable will be specified during the order process, depending on the service and your country of residence. Eligibility for any discounts is ascertained at the time you subscribe and cannot be changed during the term of your subscription. We will always tell you in advance of any increase in the price of your subscription and offer you an opportunity to cancel it if you do not wish to pay the new price.</p></li>
+                                  <li>
+                                    <strong><p class="bold">Taxes: </p> </strong>
+                                    <p class="mT15">Subscription and access to content services fall under the purview of Service Tax as per the current indirect taxation policy, Government of India. Taxes are applicable for consumption of content on the website and other products of Business Standard uniformly for customers based in India and outside the country. Unless otherwise indicated, prices stated on our website are inclusive of applicable Service Tax, any applicable value added tax (VAT) or other sales taxes.</p></li>
+                                    <li>
+                                      <strong><p class="bold">Pricing errors: </p> </strong>
+                                      <p class="mT15">If we incorrectly state a price to you whether online or otherwise, we are not obliged to provide you with a subscription at that price, even if we have mistakenly accepted your offer to buy a subscription at that price, and we reserve the right to subsequently notify you of any pricing error. If we do this, you may cancel the subscription without any obligation to us and we will refund you any money you have paid us in full, or you may pay the correct price. If you refuse to exercise either of these choices then we may cancel your subscription and will refund you any money you have paid us in full. We will always act in good faith in determining whether a genuine pricing error has occurred.</p></li>
+                                      <li>
+                                        <strong><p class="bold">Other costs: </p> </strong>
+                                        <p class="mT15">In addition to any subscription fees you pay, you are responsible for paying any internet connection or other telecommunications charges that you may incur by accessing the premium services or using the services available on it. For example, if you use any of our mobile services then your network operator may charge you for data or messaging services.</p></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+                                <div class="row-panel ">
+                                  <div class="row-inner ">
+                                    <h2>5. Subscription Period, Renewal and Cancellation of Personal Subscriptions</h2>
+                                    <div>
+                                      <ul class="aticle-txt ">
+                                        <li>
+                                          <strong><p class="bold">Renewals:</p> </strong>
+                                          <p class="mT15">If you chose to pay monthly, your subscription will continue until you tell us that you no longer wish to receive it, in which case you will stop paying the monthly fees. We will notify you at least 7 days in advance of any changes to the price in your subscription that will apply upon next monthly renewal.</p>
+                                          <p class="mT15">Please visit the "How to cancel" section below for details of how to cancel your monthly subscription.</p>
+                                          <p>Unless you notify us before the end of your chosen subscription period that you no longer wish to receive it, your subscription will renew for another period as applicable. We will charge the subscription using the same card or other payment method that you previously used.</p>
+                                        </li>
+                                        <li>
+                                          <strong><p class="bold fS18">Cancellation Policy</p></strong><p><strong> </strong>
+                                          </p><p class="mT15">For Digital subscriptions by placing your order you agree that we may start your subscription immediately upon our accepting your order. This means that you are not entitled to a refund if you change your mind after we have provided you with access to your subscription.</p>
+                                          <p class="mT15">Except as set out in the previous section, you do not have any right to cancel your subscription or any part of it until the end of your then current subscription period. </p>
+                                          <p class="mT15">Although you may notify us of your intention to cancel at any time, such notice will only take effect at the end of your then current subscription period, and you will not receive a refund </p>
+                                        </li>
+                                        <li>
+                                          <strong><p class="bold">How to cancel? </p> </strong>
+                                          <p>You may notify us of your wish to cancel your subscription by contacting our Customer Services team at assist@bsmail.in. To enable us cancel your subscription please provide us with your complete name (as was in the subscription order form), Email address and Contact number clearly written out.</p></li>
+                                          <li>
+                                            <strong><p class="bold">Cancellation by us:</p></strong><p><strong> </strong>
+                                            </p><p>Business Standard reserves the right to suspend or terminate your subscription if you breach these terms and conditions, with or without notice and without further obligation to you. We may also suspend or terminate your subscription if we are prevented from providing services to you by circumstances beyond our control. If we terminate your subscription for any reason and/or permanently cease publishing business-standard.com, or cease to provide subscription services then, unless there are exceptional circumstances, we will provide you with a pro rata refund to your credit card. This means that we will refund you with any amounts that you have paid us in advance that relate to any remaining and unexpired period of your subscription.</p></li>
+                                            <li>
+                                              <strong><p class="bold">Cancellation of your registration:</p></strong><p><strong> </strong>
+                                              </p><p>If you are a registered user, but not a subscriber, then Business Standard reserves the right to suspend or terminate your registration at any time, with or without notice and without further obligation to you. If you would like to cancel your registration then please contact our customer services team at assist@bsmail.in.</p>               </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="row-panel ">
+                                        <div class="row-inner ">
+                                          <h2>6. Who Your Personal Subscription Contract is with</h2>
+                                          <div>
+                                            <ul class="aticle-txt ">
+                                              <li><p>If you buy a Business-standard.com digital subscription and are resident in any country, then you will be contracting with Business Standard Private Limited, Nehru House, 4, Bahadur Shah Zafar Marg, New Delhi - 110 002 </p></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+
+
+                                      <div class="row-panel ">
+                                        <div class="row-inner ">
+                                          <h2>7. User Generated Content</h2>
+                                          <div>
+                                            <ul class="aticle-txt ">
+                                              <li><p class="mT15">Business-standard.com includes comments sections, blogs and other interactive features that allow interaction between users and between users and Business Standard. We call the information posted by or contributed by users "User Generated Content" or "UGC".</p>
+                                                <p class="mT15">If you wish to view or participate by way of UGC then you must comply with specific rules and guidelines. We also recommend that you read our Comments Guidelines which provide further guidance in relation to commenting on Business-standard.com.</p>
+                                                <p class="mT15">You are responsible for all the content of any of your UGC that you or we publish. You are financially responsible to us for any claim against us by any third party that your UGC is not in accordance with the UGC policy</p>
+                                                <p class="mT15 bold">You further agree that you will:</p>
+                                                <p class="mT15">* Only publish UGC that is your original content and will not infringe the copyright or other rights of any third party when publishing UGC.
+                                                  Not post, link to or otherwise publish any UGC containing any form of advertising or promotion for goods and services or any spam or other form of unsolicited communication.</p>
+                                                  <p class="mT15">* Not post, link to or otherwise publish any UGC with recommendations to buy or not buy a particular share or other investment or which contain confidential information of another party or which otherwise have the purpose of affecting the price or value of any share or other investment.</p>
+                                                  <p class="mT15">* Not post, link to or otherwise publish any UGC that is threatening, offensive, libellous, indecent or otherwise unlawful.</p>
+                                                  <p class="mT15">* Not post comments that are discriminatory in nature, for example, comments which make attacks on the grounds of race, religion, sex, gender, sexual orientation, disability or age.</p>
+                                                  <p class="mT15">* Respectfully challenge different points of view but not personally attack other commentators.</p>
+                                                  <p class="mT15">* Not disguise the origin of any UGC and not impersonate any person or entity (including Business Standard employees or Forum guests or hosts) or misrepresent any connection with any person or entity.</p>
+                                                  <p class="mT15">* Not post or otherwise publish any UGC unrelated to the Forum or the Forum's topic.</p>
+                                                  <p class="mT15">* Not post or transmit any UGC that contains software viruses, files or code designed to interrupt, destroy or limit the functionality of Business-Standard.com or any computer software or equipment.</p>
+                                                  <p class="mT15">* Not collect or store other users personal data.</p>
+                                                  <p class="mT15">* Not restrict or inhibit any other user from using the Forums.</p>
+                                                  <p class="mT15">* Comply with the guidelines for commenting set out in our Commenting FAQ.</p>
+                                                  <p class="mT15">
+                                                    It is not possible for Business Standard to fully monitor all UGC published on business-standard.com but where we have actually received notice of any UGC that is potentially misleading, untrue, offensive, unlawful, infringes third party rights or is potentially in breach of these terms and conditions, then we will review that UGC, decide whether to remove it from business-standard.com and act accordingly. This may include banning a user from participation in UGC on Business-standard.com.
+                                                    If you believe that any UGC published on business-standard.com infringes any legal rights that you may have or is not allowed under these terms and conditions, please notify us immediately with specific details by contacting us at <a href="https://www.business-standard.com/issue-report/report">assist@bsmail.in</a> or <a href="mailto:feedback@bsmail.in">feedback@bsmail.in</a></p></li>
+
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+
+
+
+
+                                            <div class="row-panel ">
+                                              <div class="row-inner ">
+                                                <h2>8. Third Party Sites and Services</h2>
+                                                <div>
+                                                  <ul class="aticle-txt ">
+                                                    <li><p>Business-standard.com may contain links to other Internet websites or online and mobile services provided by independent third parties, including websites of our advertisers and sponsors (what we call "Third Party Sites"), either directly or through frames. Third Party Sites also include co-branded with Business Standard and so include Business Standard's trade marks.</p>
+                                                      <p class="mT15">It is your decision whether you purchase or use any third party products or services made available on or via Third Party Sites and you should read Section 9 below carefully. Our Privacy Policy does not apply to Third Party Sites.</p>
+                                                      <p class="mT15">Business-Standard.com contains advertising and sponsorship. Advertisers and sponsors are responsible for ensuring that material submitted for inclusion on Business-standard.com complies with international and national law. Business Standard is not responsible for any error or inaccuracy in advertising, incorrect links or sponsorship material.</p>
+                                                      <p class="mT15">Copyright in any software that is made available for download from Business-standard.com belongs to Business Standard or its suppliers or contributors. Your use of the software is governed by the terms of any licence agreement that may accompany or be included with the software. Do not install or use any of this software unless you agree to such licence agreement. Business Standard is not responsible for any technical or other issues that may happen if you download third party software.</p></li>
+
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+
+
+                                              <div class="row-panel ">
+                                                <div class="row-inner ">
+                                                  <h2>9. Our Responsibilities towards You</h2>
+                                                  <div>
+                                                    <ul class="aticle-txt ">
+                                                      <li><p class="mT15">A summary of what this section means: this section is important and you should read it carefully. It makes clear to what extent, if any, Business Standard accepts responsibility (liability) to you for your use of Business-standard.com or in respect of any third party products or services that we refer to or advertisements or any other link to on business-standard.com. Unless you are a premium subscriber to Business-standard.com, we accept no financial responsibility to you arising from your use of business-standard.com or the content, advertisements and links published on business-standard.com. If you are a Business Standard premium service subscriber, we limit our financial responsibility to you arising from your use of Business-Standard.com and/or the Premium Services you consume on business-standard.com to the price you paid for your subscription.</p>
+                                                        <p class="mT15">In no circumstances do we accept responsibility for your use of Third Party Sites or services not limited to advertisements, links in respect of any Third Party Products. By Third Party Sites we mean websites, online or mobile services provided by third parties, including websites of advertisers and sponsors that may appear on business-standard.com. By Third Party Products we mean products or services provided by third parties.</p>
+                                                      </li>
+                                                      <li>
+                                                        <strong><p class="bold">Limitations of content published on Business-Standard.com: </p></strong><p><strong> </strong>
+                                                        </p><p class="mT15">All content published on Business-Standard.com (including any information we publish regarding Third Party Products) is only for your general information and entertainment purposes and is not intended to address your particular requirements. In particular, Content created by Business Standard, its syndication partners and including UGC and any other content provided by third parties and distributed by business-standard.com, does not constitute any form of advice, recommendation, representation, endorsement or arrangement by Business Standard. It is not intended to be and should not be relied upon by users in making (or refraining from making) any specific investment, purchase, sale or other decisions. Appropriate independent advice should be obtained before making any such decision, such as from a qualified financial adviser.</p>
+                                                        <p class="mT15">Any agreements, transactions or other arrangements made between you and any third party named on (or linked to from) Business-Standard.com are at your own responsibility and entered into at your own risk. Any information that you receive via Business-standard.com, whether or not it is classified as "real time", may have stopped being current by the time it reaches you. Share price information may be rounded up/down and therefore may not be entirely accurate.</p></li>
+
+                                                        <li>
+                                                          <strong><p class="bold">What we promise:</p></strong><p><strong> </strong>
+                                                          </p><p class="mT15">Business Standard promises to develop and operate business-standard.com with reasonable skill and care and will use reasonable efforts to promptly remedy any faults of which it is aware or made aware of.</p></li>
+
+                                                          <li>
+                                                            <strong><p class="bold">What we do not promise: </p></strong><p><strong> </strong>
+                                                            </p><p class="mT15">Business Standard does not provide any promises or warranties other than defined above. The content is provided on an "as is" and "as available" basis. While the content creation team and its partners from whom content is syndicated make the best of their efforts to put together accurate, complete and authentic content, Business Standard and business-standard.com does not make any promises in respect of content published on its website and/or the services and functions available on or through business-standard.com or of the quality, completeness or accuracy of the information published on or linked to from business-standard.com other than as expressly stated above.</p>
+                                                            <p class="mT15">The above disclaimers apply to your use of Business-Standard.com. Without limiting the above, Business Standard is not liable for matters beyond its reasonable control. Business Standard does not control third party communications networks (including your internet service provider), the internet, acts of god or the acts of third parties.</p></li>
+                                                            <li>
+                                                              <strong><p class="bold">Our financial responsibility to you: </p></strong><p><strong> </strong>
+                                                              </p><p class="mT15">You agree that if we are in breach of these terms and conditions, we will only be responsible to you for any damages that you incur arising out of your use of Business-standard.com (to the extent that Business Standard's liability is not otherwise excluded by this section 9) as follows:</p>
+                                                              <p class="mT15">If you incur any loss as a result of using Business-Standard.com or any Content outside the scope of these terms and conditions, Business Standard accepts no responsibility (liability) to you for this.</p>
+                                                              <p class="mT15">You will be responsible for all claims, liabilities, damages, cost and expenses suffered or incurred as a result of your breach of these terms and conditions.</p>
+                                                              <p class="mT15">Business Standard will only be responsible for loss or damage you suffer which is the reasonably foreseeable result of Business-Standard's breach of a legal duty of care owed to you.</p>
+                                                              <p class="mT15">Business Standard will not be responsible to you for any loss or damage suffered by your business, such as lost data, lost profits or any business interruption.</p>
+                                                              <p class="mT15">If you have a premium subscription then you may terminate your subscription in writing to Business Standard.  If business-standard.com is unavailable or inaccessible to you for more than 5 days in a 30 day period, as a result of the fault or failure of Business Standard, in which case we will refund you any amount that you have paid to us in advance that relates to any period which was still to run on your subscription. You may instead at your option receive a renewal to your subscription free-of-charge at the point of renewal.</p>
+                                                              <p class="mT15">The limitations of liability in this section 9 apply for the benefit of Business Standard, its affiliates, and all of their respective officers, directors, employees, agents or any company who we transfer our rights and obligations to in accordance with these terms and conditions.</p>
+                                                              <p class="mT15">To the full extent permitted by law you acknowledge and agree that our third party content and data suppliers have no liability whatsoever to you in respect of any of their data supplied to you as part of Business Standard.com </p>
+                                                              <p class="mT15">Business Standard's liability will not be limited in the case of death or personal injury directly caused by Business Standard's negligence in those countries where it is unlawful for Business Standard to seek to exclude such liability.
+                                                              </p></li>
+                                                              <li>
+                                                              </li></ul>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="row-panel ">
+                                                          <div class="row-inner ">
+                                                            <h2>10. Choice of Law and Jurisdiction</h2>
+                                                            <div>
+                                                              <ul class="aticle-txt ">
+                                                                <li><p class="mT15">If you are a user whose principal address or principal use of Business Standard Digital services occurs in any jurisdiction across the world then these terms and conditions will be subject to Indian law. In this case, to the extent possible in the applicable jurisdiction, both you and we agree that the competent courts in New Delhi, India will have non-exclusive jurisdiction to settle any dispute which may arise out of, under, or in connection with these terms and conditions.</p></li>
+
+                                                              </ul>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="row-panel ">
+                                                          <div class="row-inner ">
+                                                            <h2>11. General</h2>
+                                                            <div>
+                                                              <ul class="aticle-txt ">
+                                                                <li><p>
+                                                                  You may not license or transfer any of your rights under these terms and conditions. We may transfer any of our rights or obligations under these terms and conditions to any individual, organization or entity but if we do so we will ensure that any company/individual/entity to whom we transfer our rights or obligations will continue to honour your rights under them. Any resultant changes to the terms and conditions will be intimated to you via email and updated on this website.</p>
+                                                                  <p class="mT15">If any provision of these terms and conditions is found to be invalid by any court having competent jurisdiction, the invalidity of that provision will not affect the validity of the remaining provisions of these terms and conditions, which will remain in full force and effect.</p>
+                                                                  <p class="mT15">Failure by either party to exercise any right or remedy under these terms and conditions does not constitute a waiver of that right or remedy. Headings in these terms and conditions are for convenience only and will have no legal meaning or effect.</p>
+                                                                  <p class="mT15">These terms and conditions constitute the entire agreement between you and Business Standard Private Limited for your use of the Business Standard website, Business Standard mobile and other digital products and services from Business Standard. They supersede all previous communications, representations and arrangements, either written or oral.
+
+                                                                  </p></li>
+
+                                                                </ul>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+                                                          <div class="row-panel ">
+                                                            <div class="row-inner ">
+                                                              <h2>12. Content ownership</h2>
+                                                              <div>
+                                                                <ul class="aticle-txt ">
+                                                                  <li><p class="mT15">All Content created and published on the digital platforms under the url https://www.business-standard.com  the mobile browser site, applications, Business Standard E-paper belong to Business Standard Private Limited and its licensors who own all intellectual property rights (including copyright and database rights) No intellectual property rights in any of the content are transferred to you while you consume the content on this platform. "BS" and "Business Standard" are registered trade marks of Business Standard Private Limited and you may not use them without prior written permission from Business Standard. You are permitted to use the content on this platform only as set out in our Copyright Policy.</p></li>
+
+                                                                </ul>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="row-panel ">
+                                                            <div class="row-inner ">
+                                                              <h2>13. Changes to Terms and Conditions and Validity </h2>
+                                                              <div>
+                                                                <ul class="aticle-txt ">
+                                                                  <li><p>These terms and conditions were published on index June 2016 and replace with immediate effect the terms and conditions previously published. </p></li>
+
+                                                                </ul>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+                                                        </div>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary" data-dismiss="modal">I Understand</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
